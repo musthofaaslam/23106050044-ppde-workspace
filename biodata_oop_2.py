@@ -1,18 +1,18 @@
-import tkinter as tk
-from tkinter import messagebox
-import datetime
-from tkinter.font import Font
-import logging
-import configparser
-import os
-import re
+import tkinter as tk # Import library Tkinter
+from tkinter import messagebox # For dialog boxes
+import datetime # For timestamping saved files
+from tkinter.font import Font # For custom fonts
+import logging  #For logging activities
+import configparser #For handling config file
+import os #For file operations
+import re #For regex validation
 
 # Setup logging
 logging.basicConfig(
-    filename='aplikasi_biodata.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
+    filename='aplikasi_biodata.log', # Log file name
+    level=logging.INFO, # Log level
+    format='%(asctime)s - %(levelname)s - %(message)s', # Log format
+    datefmt='%Y-%m-%d %H:%M:%S' # Date format
 )
 
 # Membuat kelas utama aplikasi yang mewarisi dari tk.Tk
