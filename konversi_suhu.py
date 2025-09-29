@@ -10,7 +10,7 @@ class KonverterSuhu:
     def __init__(self):
         self.window = tk.Tk()
         self.window.title("Konverter Suhu - State Management Demo")
-        self.window.geometry("500x400")
+        self.window.geometry("500x600")
         self.window.configure(bg="lightblue")
 
         # Variabel kontrol (State Management)
